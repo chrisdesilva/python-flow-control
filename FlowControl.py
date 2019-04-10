@@ -43,20 +43,41 @@
 #     print("Buy " + item)
 
 # CHALLENGE - Take in IP address, count number of segments and length of each segment
-ipAddress = input("What is your IP address? ")
-segments = 1
-segmentLength = ''
-tracker = 0
+# ipAddress = input("What is your IP address? ")
+# segments = 1
+# segmentLength = ''
+# tracker = 0
+#
+# for i in range(0, len(ipAddress)):
+#     if ipAddress[i] != '.':
+#         tracker += 1
+#     if ipAddress[i] == '.':
+#         segments += 1
+#         segmentLength += str(tracker) + ', '
+#         tracker = 0
+#
+# segmentLength += str(tracker)
+#
+# print("There are {} segments".format(segments))
+# print("The segments lengths are {}".format(segmentLength))
 
-for i in range(0, len(ipAddress)):
-    if ipAddress[i] != '.':
-        tracker += 1
-    if ipAddress[i] == '.':
-        segments += 1
-        segmentLength += str(tracker) + ', '
-        tracker = 0
-
-segmentLength += str(tracker)
-
-print("There are {} segments".format(segments))
-print("The segments lengths are {}".format(segmentLength))
+# WHILE LOOPS
+# i = 0
+# while i < 10:
+#     print("i is now {}".format(i))
+#     i += 1
+# CHALLENGE
+# import random
+#
+# highest = 10
+# answer = random.randint(1, highest)
+#
+# print("Please guess a number between 1 and {}: ".format(highest))
+# guess = int(input())
+# while guess != answer:
+#     if guess < answer:
+#         print("Please guess higher")
+#     else:
+#         print("Please guess lower")
+#     guess = int(input())
+# print("Nice job!")
